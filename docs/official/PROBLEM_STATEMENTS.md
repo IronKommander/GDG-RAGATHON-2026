@@ -17,7 +17,7 @@ You are not limited to one challenge. To maximize your chances of winning, you c
 - **Winning Criteria:** The participant with the **highest cumulative points** at the end of 5 days wins.
 
 > [!Note on Evaluation]
-> If two participants both score 130 points, the winner will be decided based on **Code Quality** and **Full-stack Integration** (Frontend + Backend).
+> If two participants both score 180 points(130points+50bonus), the winner will be decided based on **Code Quality** and **Full-stack Integration** (Frontend + Backend).
 
 ---
 # *Problem Statements*
@@ -69,7 +69,7 @@ You must manually collect or scrape data for at least **20–30 local eateries**
     4. **Experience RAG:** Based on the user's tech stack, the system retrieves the most relevant **Senior Interview Experiences** from a vector database.
 
 ### Bonus Credits (Go the Extra Mile)
-Participants can earn a total of **50 additional points** by implementing these advanced features:
+Participants can earn a total of **45 additional points** by implementing these advanced features:
 
 #### 1. The "Resume Parser" (+15 Points)
 - **Challenge:** Instead of the student typing their details, allow them to **upload their Resume (PDF/Docx)**.
