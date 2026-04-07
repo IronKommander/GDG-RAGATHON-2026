@@ -34,7 +34,13 @@ class RetrieveInput(BaseModel):
 def retrieve_blog_posts(query: str) -> str:
     """Search and return info about TITAN SECURE's Universal Health & Wellness Policy."""
     docs = retriever.invoke(query)
-    return "\n\n".join([doc.page_content for doc in docs])
+    formatted_docs = []
+    for doc in docs:
+        meta = doc.metadata
+        header_info = f"[{meta.get('Section', '')} {meta.get('Clause', '')}]"
+        formatted_docs.append(f"{header_info}\n{doc.page_content}")
+        
+    return "\n\n---\n\n".join(formatted_docs)
 
 tools = [retrieve_blog_posts]
 
