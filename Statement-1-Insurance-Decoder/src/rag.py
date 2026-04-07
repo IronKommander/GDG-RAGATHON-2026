@@ -1,4 +1,4 @@
-from langchain_core.messages import HumanMessage
+from langchain_core.messages import AIMessage, HumanMessage
 from langgraph.graph import StateGraph, MessagesState, START, END
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_qdrant import QdrantVectorStore
@@ -110,13 +110,20 @@ GENERATE_PROMPT = (
     "Context: {context}"
 )
 
+class FinalAnswer(BaseModel):
+    """The final answer and policy citation."""
+    answer: str = Field(description="The simple, easy to understand answer to the user's question. Explain it to them like they are five.")
+    citation: str = Field(description="The specific section and clause number cited from the policy. If not found in context, output 'Not specified in retrieved context.'")
+
 def generate_answer(state: MessagesState):
     """Generate an answer"""
     question = [msg.content for msg in state["messages"] if isinstance(msg, HumanMessage)][-1]
     context = state["messages"][-1].content
     prompt = GENERATE_PROMPT.format(question=question, context=context)
-    response = grader_model.invoke([{"role" : "user", "content" : prompt}])
-    return {"messages" : [response]}
+
+    structured_response = grader_model.with_structured_output(FinalAnswer).invoke([{"role" : "user", "content" : prompt}])
+    final_text = f"{structured_response.answer}\n\n**Citation:** {structured_response.citation}"
+    return {"messages" : [AIMessage(content=final_text)]}
 
 workflow = StateGraph(MessagesState)
 workflow.add_node(generate_query_or_respond)
