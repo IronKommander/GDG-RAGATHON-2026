@@ -1,12 +1,10 @@
-from langchain_core.messages import AIMessage, HumanMessage
+from langchain_core.messages import AIMessage, HumanMessage, SystemMessage
 from langgraph.graph import StateGraph, MessagesState, START, END
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_qdrant import QdrantVectorStore
 from langchain.tools import tool
-from langchain.chat_models import init_chat_model
 from pydantic import BaseModel, Field
 from typing import Literal
-from langchain_cohere import ChatCohere
 from dotenv import load_dotenv
 from langchain_groq import ChatGroq
 from langgraph.prebuilt import ToolNode, tools_condition
@@ -60,11 +58,22 @@ llm = ChatGroq(model=MODEL, temperature=0)
 llm_with_tools = llm.bind_tools(tools)
 
 def generate_query_or_respond(state: MessagesState):
-    """Call the model to generate a response based on the current state. Given
+    """
+    IMPORTANT: IF QUESTION NOT RELATED TO TITAN SECURE'S POLICY, DO NOT RETRIEVE
+    Call the model to generate a response based on the current state. Given
     the question, it will decide to retrieve using the retriever tool, or simply respond to the user.
     """
+    sys_msg = SystemMessage(
+        content=(
+            """
+            You are a helpful AI assistant for Titan Secure.
+            IMPORTANT: IF QUESTION NOT RELATED TO TITAN SECURE'S POLICY, DO NOT RETRIEVE
+            """
+        )
+    )
+    messages  = [sys_msg] + state["messages"]
     response = (
-        llm_with_tools.invoke(state["messages"])
+        llm_with_tools.invoke(messages)
     )
     return {"messages": [response]}
 
@@ -85,8 +94,12 @@ class GradeDocuments(BaseModel):
 
 grader_model = ChatGroq(model=MODEL, temperature=0)
 
-def grade_documents(state: MessagesState) -> Literal["generate_answer", "rewrite_question"]:
+def grade_documents(state: MessagesState) -> Literal["generate_answer", "rewrite_question", "no_docs_found"]:
     """Determine whether the retrieved documents are relevant to the question."""
+
+    num_tool_calls = [msg for msg in state["messages"] if getattr(msg, 'type', '') == 'tool']
+    if(len(num_tool_calls) > 2) : return "no_docs_found"
+
     question = [msg.content for msg in state["messages"] if isinstance(msg, HumanMessage)][-1]
     context = state["messages"][-1].content
     prompt = GRADE_PROMPT.format(question=question, context=context)
@@ -103,6 +116,7 @@ def grade_documents(state: MessagesState) -> Literal["generate_answer", "rewrite
         return "rewrite_question"
 
 REWRITE_PROMPT = (
+    "IMPORTANT: If not related to Titan Secure Policy, do not rewrite in any meaningful way."
     "Look at the input and try to reason about the underlying semantic intent / meaning.\n"
     "Here is the initial question:"
     "\n ------- \n"
@@ -110,6 +124,11 @@ REWRITE_PROMPT = (
     "\n ------- \n"
     "Formulate an improved question:"
 )
+
+def no_docs_found(state: MessagesState):
+    """Exit to prevent infinite looping"""
+    final_text = "No information found related to Titan Secure docs."
+    return {"messages" : state["messages"]+[SystemMessage(content=final_text)]}
 
 def rewrite_question(state: MessagesState):
     """Rewrite the orignal user question"""
@@ -120,6 +139,7 @@ def rewrite_question(state: MessagesState):
     return {"messages": [HumanMessage(content=response.content)]}
 
 GENERATE_PROMPT = (
+    "IMPORTANT: IF QUESTION NOT RELATED TO TITAN SECURE'S POLICY, DO NOT RETRIEVE"
     "You are a RAG model that simplifies complex 'Terms & Conditions' or Policy documents."
     "You must use a comprehensive document (Titan Secure Health Insurance Policy) to answer specific, high-stakes user queries with 100% accuracy."
     "You must cite the section and clause number for every answer you write related to the Titan Secure Health Insurance Policy."
@@ -129,9 +149,12 @@ GENERATE_PROMPT = (
 )
 
 class FinalAnswer(BaseModel):
-    """The final answer and policy citation."""
+    """
+    "IMPORTANT: IF QUESTION NOT RELATED TO TITAN SECURE'S POLICY, OUTPUT CITATION NOT REQUIRED."
+    The final answer and policy citation.
+    """
     answer: str = Field(description="The simple, easy to understand answer to the user's question. Explain it to them like they are five.")
-    citation: str = Field(description="The specific section and clause number cited from the policy. If not found in context, output 'Not specified in retrieved context.'")
+    citation: str = Field(description="The specific section and clause number cited from the policy. If not found in context, output 'CITATION NOT REQUIRED'")
 
 def generate_answer(state: MessagesState):
     """Generate an answer"""
@@ -148,6 +171,7 @@ workflow.add_node(generate_query_or_respond)
 workflow.add_node("retrieve", ToolNode(tools))
 workflow.add_node(rewrite_question)
 workflow.add_node(generate_answer)
+workflow.add_node(no_docs_found)
 
 workflow.add_edge(START, "generate_query_or_respond")
 workflow.add_conditional_edges(
@@ -162,6 +186,7 @@ workflow.add_conditional_edges(
     "retrieve",
     grade_documents,
 )
+workflow.add_edge("no_docs_found", "generate_answer")
 workflow.add_edge("generate_answer", END)
 workflow.add_edge("rewrite_question", "generate_query_or_respond")
 graph = workflow.compile()

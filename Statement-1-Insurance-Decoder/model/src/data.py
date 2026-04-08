@@ -35,3 +35,5 @@ qdrant_db = QdrantVectorStore.from_documents(
     collection_name=COLLECTION_NAME,
     force_recreate = True
 )
+
+print("Successfully inserted into Qdrant Vector Database!")

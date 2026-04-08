@@ -9,5 +9,6 @@ langgraph==1.1.6
 pydantic==2.12.5
 pymupdf4llm==1.27.2.2
 python-dotenv==1.2.2
+langgraph-cli[inmem]
 fastapi[standard]
 sentence-transformers
