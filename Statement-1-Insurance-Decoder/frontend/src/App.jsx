@@ -11,7 +11,7 @@ function App() {
             setDis(disabled => 1)
             const data = event.target[0].value
             console.log("PROMPT:", data)
-            setConv([...conv, [data,0]])
+            setConv([...conv, [data,0],["  .  .  .  ",1]])
             event.target.reset();
 
             const msg = "http://localhost:8000/?msg="
@@ -23,12 +23,13 @@ function App() {
             .then(data => {
                 const len = data.length
                 const cont = data[len-1].content
-                setConv(conv => [...conv,[cont,1]])
+                setConv([...conv,[data,0],[cont,1]])
                 setDis(disabled => 0)
             })
             .catch(error => {
                 console.log(error)
-                console.log("An error occured. Could not contact model.")
+                console.log("An error occured. Could not contact the model.")
+                setConv([...conv,[data,0],["An error occured. Could not contact the model.",1]])
                 setDis(disabled => 0)
             })
         }
@@ -83,7 +84,7 @@ function App() {
         <form className='w-[73vw] mx-auto flex justify-center items-center gap-2 border-2 border-white rounded-full overflow-hidden bg-[#515151] text-white my-[8vh]' onSubmit={handleSubmit}  >
             <input name="prompt" id="prompt" type="text" className='w-full h-[8vh] text-xl p-8 overflow-x-scroll focus:outline-none'/>
 
-            <button className='border-2 border-white rounded-full h-[8vh] w-[8vh] m-2 bg-blue-400' type='submit' disabled={disabled}> <AiOutlineArrowRight className='text-2xl ml-3 text-white'/> </button>
+            <button className='border-2 border-white rounded-full h-[8vh] w-[8vh] m-2 bg-blue-400' type='submit' disabled={disabled}> <AiOutlineArrowRight className='text-[4vh] ml-[1.5vh] text-white'/> </button>
         </form>
     </>
     )
