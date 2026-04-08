@@ -11,9 +11,18 @@ from dotenv import load_dotenv
 from langchain_groq import ChatGroq
 from langgraph.prebuilt import ToolNode, tools_condition
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 load_dotenv()
 
 app = FastAPI();
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 bge_embeddings = HuggingFaceEmbeddings(
     model_name="BAAI/bge-base-en-v1.5", #Using the base BGE embedding model
