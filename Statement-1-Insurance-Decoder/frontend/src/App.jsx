@@ -20,9 +20,9 @@ function App() {
 
             fetch(msg+data)
             .then(response => response.json())
-            .then(data => {
-                const len = data.length
-                const cont = data[len-1].content
+            .then(rdata => {
+                const len = rdata.length
+                const cont = rdata[len-1].content
                 setConv([...conv,[data,0],[cont,1]])
                 setDis(disabled => 0)
             })
