@@ -13,6 +13,8 @@ from langgraph.prebuilt import ToolNode, tools_condition
 from fastapi import FastAPI
 load_dotenv()
 
+app = FastAPI();
+
 bge_embeddings = HuggingFaceEmbeddings(
     model_name="BAAI/bge-base-en-v1.5", #Using the base BGE embedding model
     model_kwargs={"device":"cpu"},
@@ -171,3 +173,7 @@ def contact_llm(msg: str):
         for node, update in chunk.items():
             result.append(update["messages"][-1])
     return result
+
+@app.get("/")
+def conn_mod(msg: str):
+    return contact_llm(msg)
