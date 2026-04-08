@@ -1,0 +1,7 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "rag_pipeline": "./src/rag.py:graph"
+  },
+  "env": "../env"
+}
