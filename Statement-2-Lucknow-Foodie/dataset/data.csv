@@ -1,0 +1,286 @@
+,restaurantName,isAdvertisement,rating,cuisines,deliveryTime,price,distance,offer,restaurantUrl
+0,N/A,False,4.3,"American, Beverages, Desserts, Snacks, Indian",30-35 MINS,N/A,8.3 km away,N/A,https://www.swiggy.com/city/lucknow/burger-singh-big-punjabi-burgers-gomti-nagar-rest367778
+1,N/A,False,4.5,"Bakery, Italian, Snacks, Cakes & Pastries, Pizzas, Beverages",35-40 MINS,N/A,9.9 km away,N/A,https://www.swiggy.com/city/lucknow/mr-brown-danbro-gomti-nagar-rest504871
+2,N/A,False,4.4,"Burgers, American",40-50 MINS,N/A,8.6 km away,N/A,https://www.swiggy.com/city/lucknow/burger-king-city-mall-gomti-nagar-rest226044
+3,N/A,False,4.3,"Pizzas, Italian-American, American, Barbecue, Snacks, Grill, Italian, Pastas, Sweets, Desserts",40-45 MINS,N/A,8.7 km away,N/A,https://www.swiggy.com/city/lucknow/rominus-pizza-and-burger-nagar-nigam-food-safety-zone-14-gomti-nagar-rest689752
+4,N/A,False,4.2,"Tandoor, Chinese, Rolls & Wraps, Indian",65-75 MINS,N/A,16.2 km away,N/A,https://www.swiggy.com/city/lucknow/chaap-wale-kaliji-bazar-chowk-rest769664
+5,N/A,False,4.6,"Indian, Chinese, Continental",65-75 MINS,N/A,13.6 km away,N/A,https://www.swiggy.com/city/lucknow/di-di-foods-gautam-buddha-marg-aishbagh-rest368687
+6,N/A,False,4.2,"Bubble Tea, Burger, Korean, Beverages, Fast Food, Juice and shake",40-50 MINS,N/A,8.5 km away,N/A,https://www.swiggy.com/city/lucknow/boba-bhai-bubble-tea-and-korean-street-food-patrakarpuram-gomti-nagar-rest1110695
+7,N/A,False,4.3,"Beverages, Chinese, Pizzas, Burgers, Snacks, Fast Food",35-45 MINS,N/A,9.9 km away,N/A,https://www.swiggy.com/city/lucknow/drunken-monkey-vijyant-khand-gomti-nagar-rest785348
+8,N/A,False,3.5,"Chinese, Street Food, Snacks, Pizzas, Fast Food, Burgers, Cafe",40-50 MINS,N/A,9.8 km away,N/A,https://www.swiggy.com/city/lucknow/lara-foods-cafe-vibhuti-khand-gomti-nagar-rest862616
+9,N/A,False,4.4,"Bakery, Desserts, Ice Cream, Beverages, Cakes, Cafe",45-55 MINS,N/A,10.3 km away,N/A,https://www.swiggy.com/city/lucknow/kouzina-kafe-the-food-court-vaibhav-complex-indira-nagar-rest923238
+10,N/A,False,N/A,"Desserts, Thalis, Beverages, Healthy Food, North Indian, Indian, Biryani, Asian",45-50 MINS,N/A,11.1 km away,N/A,https://www.swiggy.com/city/lucknow/maas-home-food-indira-nagar-rest1356282
+11,N/A,False,N/A,Chinese,40-45 MINS,N/A,9.7 km away,N/A,https://www.swiggy.com/city/lucknow/alacia-foods-and-takeaway-viraj-khand-gomti-nagar-rest828270
+12,N/A,False,3.5,Pizzas,60-70 MINS,N/A,13.7 km away,N/A,https://www.swiggy.com/city/lucknow/shubh-food-hazratganj-rest1135096
+13,N/A,False,N/A,Salads,N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/ksp-foods-and-fruits-2nd-eldeco-uddyan-aashiana-rest564549
+14,N/A,False,N/A,"North Indian, Thalis",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/shivaj-food-ekta-nagar-mohanlalganj-rest922319
+15,N/A,False,N/A,"Mughlai, Home Food, Biryani",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/non-veg-biryani-point-sultanpur-road-vrindavan-rest1002315
+16,N/A,False,N/A,"Kebabs, Biryani, Mughlai, North Indian, Snacks, Thali, Street Food, rolls",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/street-foods-by-punjab-grill-gomti-nagar-rest336767
+17,N/A,False,N/A,"Chinese, Snacks, Rolls & Wraps",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/ranjan-snack-foods-hazratganj-rest59520
+18,N/A,False,N/A,"Healthy Food, Continental, Thai, Mexican, Italian, Beverages",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/super-foods-sector-12-sarvodaya-nagar-rest694251
+19,N/A,False,N/A,Indian,N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/lavi-food-service-a-block-indira-nagar-rest372180
+20,N/A,False,N/A,"Tandoor, Indian, Snacks",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/jb-innovation-foods-saheed-path-road-ashiyana-rest670231
+21,N/A,False,N/A,"North Indian, Chaat, Street Food",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/ridhima-home-foods-vrindavan-rest1339470
+22,N/A,False,N/A,South Indian,N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/ujala-south-indian-foods-sainik-nagar-telibagh-rest1018141
+23,N/A,False,N/A,"Healthy Food, Salads, Beverages",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/diet-food-com-khargapur-rd-gomti-nagar-rest867083
+24,N/A,False,N/A,"South Indian, Chinese",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/raj-bhojnalya-and-fast-food-center-gomti-nagar-rest162345
+25,N/A,False,N/A,"Indian, Snacks",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/avika-ki-rasoi-sharda-enclave-sainik-nagar-rest995932
+26,N/A,False,N/A,Biryani,N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/mezbaan-vivek-khand-gomti-nagar-rest1018699
+27,N/A,False,N/A,Indian,N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/shri-shyam-foods-faizabad-road-indira-nagar-rest326021
+28,N/A,False,N/A,"Chinese, Fast Food",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/dial-food-c-block-indira-nagar-rest477289
+29,N/A,False,N/A,"North Indian, Tandoor, Snacks, Biryani, Momos, Burgers, Fast Food, rolls",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/haveli-street-food-sector-9-mohanlalganj-rest909127
+30,N/A,False,N/A,"Indian, Chinese, Snacks",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/yummy-food-packing-center-bishesh-kahnd-gomti-nagar-rest390851
+31,N/A,False,N/A,"North Indian, Pizzas, Desserts, Thalis",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/mahak-foods-faizabad-road-hazratganj-rest392633
+32,N/A,False,N/A,"Bakery, Cakes",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/king-bakery-and-fast-food-patrakar-puram-gomti-nagar-rest525522
+33,N/A,False,N/A,"Healthy Food, Pizzas, Lebanese, Salads, Pastas, Desserts, Fast Food, Snacks",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/little-food-deli-indira-nagar-rest360846
+34,N/A,False,N/A,"Biryani, Mughlai",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/faheem-the-food-court-chowk-rest987409
+35,N/A,False,N/A,"Chinese, Snacks, Indian, Fast Food, Continental, Lucknowi, South Indian, Biryani, Kebabs",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/janvi-veg-corner-charbagh-rest90936
+36,N/A,False,N/A,"Mughlai, Biryani",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/gupta-veg-kabab-paratha-vikas-khand-1-gomti-nagar-rest411746
+37,N/A,False,N/A,Snacks,N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/veg-corner-khun-khun-ji-road-chowk-rest537903
+38,N/A,False,N/A,"Chinese, Snacks",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/lucknow-foods-vipul-khand-5-gomti-nagar-rest115921
+39,N/A,False,N/A,"Chinese, Indian, Fast Food, North Indian",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/apna-fast-food-mohanlalganj-rest1146606
+40,N/A,False,N/A,"Chinese, Chaat, Street Food, Snacks, Pizzas, Pastas, Fast Food, Burgers, Cafe, Indian",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/shreya-fast-food-corner-indira-nagar-rest1332350
+41,N/A,False,N/A,South Indian,N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/bombay-food-hub-hazratganj-rest1036517
+42,N/A,False,N/A,"Indian, Other fresh meat",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/warsi-meat-bazaar-vijay-khand-2-gomti-nagar-rest388542
+43,N/A,False,N/A,"Indian, Fast Food",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/food-kitchen-gomti-nagar-rest991603
+44,N/A,False,N/A,"Indian, Burgers, Snacks, Momos, Pizzas",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/food-window-awadh-vihar-colony-indira-nagar-rest954707
+45,N/A,False,N/A,"Indian, Burgers, Fast Food, Snacks, Beverages",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/indian-house-food-vipul-khand-gomti-nagar-rest854298
+46,N/A,False,N/A,"Chinese, South Indian, Chaat, Thalis, Indian, Beverages, Snacks, Fast Food, Burgers, North Indian",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/chatpata-food-chowk-rest1083287
+47,N/A,False,N/A,"Chinese, Street Food, Fast Food, Biryani, Rolls & Wraps, Indian",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/sr-indo-chinese-foods-bbd-rest1338029
+48,N/A,False,N/A,"Chinese, Thalis, Indian, Beverages, Street Food, Home Food, Fast Food, Burgers, Cafe",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/food-fan-fare-gomti-nagar-rest1013561
+49,N/A,False,N/A,"Chinese, Thalis, Indian, Snacks, Home Food, Healthy Food, Fast Food, Burgers, Cafe",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/home-foods-devamau-mohanlalganj-rest979050
+50,N/A,False,N/A,"Chinese, Punjabi, Pastas, Continental, Italian, Momos",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/chalte-firte-momos-and-special-food-baseeratganj-aishbagh-rest114857
+51,N/A,False,N/A,"Beverages, Indian, Chinese, Snacks",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/plan-b-food-court-sushant-golf-city-mohanlalganj-rest760651
+52,N/A,False,N/A,"Fast Food, Burgers",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/dimsim-food-point-gomti-nagar-rest1106852
+53,N/A,False,N/A,"Chinese, Beverages, Street Food, Fast Food, Burgers",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/viral-special-fast-food-gomti-nagar-rest1221532
+54,N/A,False,N/A,"Home Food, North Indian, South Indian, Healthy, Desserts, Snacks, Thali",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/shero-home-food-north-indian-budh-bazar-b-r-a-university-rest963317
+55,N/A,False,N/A,"Indian, Street Food, Pizzas, Pastas, Fast Food, Burgers, Cafe, Tibetan, Asian",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/food-central-ashiyana-rest1348656
+56,N/A,False,N/A,"Indian, Snacks, Beverages",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/akshita-tiffin-and-food-hub-1st-ruchi-khand-aashiana-rest464490
+57,N/A,False,N/A,Cafe,N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/joyful-food-gomti-nagar-vrindavan-rest1059362
+58,N/A,False,N/A,"Biryani, Beverages",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/fire-food-express-sector-8-ashiyana-rest435182
+59,N/A,False,N/A,"Indian, South Indian, Chinese, Snacks",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/madhurima-veg-vinay-khand-gomti-nagar-rest304784
+60,N/A,False,N/A,"Desserts, Snacks, Pizzas, Burgers, Cafe",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/zorko-brand-of-food-lovers-gomti-nagar-rest1301720
+61,N/A,False,N/A,"Chinese, Indian, Fast Food",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/taste-the-food-mohanlalganj-rest979016
+62,N/A,False,N/A,"Chinese, Fast Food, Snacks, Italian, Use Code NBC20 to Avail",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/lucknow-street-food-ashiyana-rest164643
+63,N/A,False,N/A,"Continental, Chinese, Mughlai",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/aryan-familys-delight-shaheed-path-sushant-golf-city-rest105935
+64,N/A,False,N/A,Indian,N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/the-food-basket-mohanlalganj-rest1289055
+65,N/A,False,N/A,"Chinese, Thalis, Indian, Sweets, Snacks, Fast Food, Cafe, Biryani, Rolls & Wraps, Street Food",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/maa-laxmi-restaurant-fast-food-and-sweets-indira-nagar-rest1336365
+66,N/A,False,N/A,Indian,N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/royal-choolah-mohanlalganj-rest1184029
+67,N/A,False,N/A,"Chinese, Fast Food, Burgers, Indian, Asian, Rolls & Wraps",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/tasty-food-corner-vrindavan-rest1351007
+68,N/A,False,N/A,"Mughlai, Snacks, Chinese",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/rahul-kabab-paratha-sector-6-indira-nagar-rest297630
+69,N/A,False,N/A,"Chinese, Fast Food, Snacks",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/pal-brothers-fast-food-shivpuram-colony-aashiana-rest417373
+70,N/A,False,N/A,"Pizzas, Chinese, Indian",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/mirchi-masala-sector-14-indira-nagar-rest338193
+71,N/A,False,N/A,"Italian, Mexican, Asian, Desserts, Juices, Beverages, Chinese, Fast Food, Snacks",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/masaki-cafe-couture-hazratganj-rest640495
+72,N/A,False,N/A,Fast Food,N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/sawan-fast-food-mohanlalganj-ext-rest1189884
+73,N/A,False,N/A,"Chinese, Thalis, North Indian, Indian, Snacks, Biryani",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/shri-krishna-bhog-indira-nagar-rest1320830
+74,N/A,False,N/A,"Chinese, Momos, shawarma, Thali, Fast Food",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/red-dragon-chopstix-vibhuti-khand-gomti-nagar-rest327277
+75,N/A,False,N/A,Thalis,N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/meal-adda-sector-9-gomti-nagar-rest386134
+76,N/A,False,N/A,"Indian, Chinese",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/babian-indira-nagar-rest59124
+77,N/A,False,N/A,"Chinese, South Indian, Fast Food",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/marksmen-lalbagh-rest59941
+78,N/A,False,N/A,"Sweets, Chinese, Indian, South Indian, Snacks",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/bikaner-express-pure-veg-restaurant-nagar-nigam-food-safety-zone-15-gomti-nagar-rest667597
+79,N/A,False,N/A,"Chinese, Indian, Tandoor",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/the-bhukkadz-indira-nagar-rest557683
+80,N/A,False,N/A,Chinese,N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/schezwan-xpress-gomti-nagar-rest1149239
+81,N/A,False,N/A,"Chinese, Mughlai",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/non-veg-point-chowk-chowk-rest76937
+82,N/A,False,N/A,"South Indian, Tandoor, Indian, Italian",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/ice-and-spice-nagar-nigam-food-safety-zone-17-indira-nagar-rest665483
+83,N/A,False,N/A,"Chinese, Continental, Beverages",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/spice-sutra-gomti-nagar-rest401768
+84,N/A,False,N/A,"Chinese, South Indian, Mughlai, Desserts",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/the-kitchenette-by-hotel-solitaire-indira-nagar-rest64996
+85,N/A,False,N/A,"Biryani, Hyderabadi, Kebabs, North Indian, barbeque",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/dum-safar-biryani-vibhuti-khand-gomti-nagar-rest591312
+86,N/A,False,N/A,"Chinese, Home Food, Fast Food",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/chaapwale-com-and-chinese-food-antas-mall-gomti-nagar-rest914680
+87,N/A,False,N/A,Street Food,N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/fresh-food-tiffin-services-mohanlalganj-vrindavan-rest1268650
+88,N/A,False,N/A,"Sweets, Indian, Chinese",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/pawan-sweets-surendar-nagar-indira-nagar-rest425219
+89,N/A,False,N/A,"Street Food, Chinese, Pastas",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/om-fast-food-center-viram-khand-1-gomti-nagar-rest361531
+90,N/A,False,N/A,"Biryani, Chinese, Mughlai, Thalis, Continental, Tandoor, Kebabs, Desserts",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/the-manish-eating-point-viram-khand-gomti-nagar-rest59253
+91,N/A,False,N/A,"Indian, Street Food, Fast Food",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/ujjwal-foods-gomti-nagar-rest1255236
+92,N/A,False,N/A,"North Indian, Beverages, Chaat",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/swastik-foods-lunga-khera-kharika-telibagh-mohanlalganj-rest755794
+93,N/A,False,N/A,"Biryani, Indian, Snacks",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/narayan-veg-cash-and-pay-colony-charbagh-rest556243
+94,N/A,False,N/A,Indian,N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/shri-shyam-namkeen-and-bakers-food-point-vijay-nagar-mohanlalganj-rest846215
+95,N/A,False,N/A,"Biryani, Tandoor, Mughlai, Lucknowi, North Indian",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/nvp-non-veg-point-rafi-kidwai-nagar-gomti-nagar-rest732261
+96,N/A,False,N/A,Chinese,N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/tripti-foods-chowk-rest975379
+97,N/A,False,N/A,Indian,N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/wow-foods-meerabai-marg-hazratganj-rest842353
+98,N/A,False,N/A,"Thalis, Indian, Beverages, Street Food, Home Food, Healthy Food",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/r-c-yadav-foods-gomti-nagar-rest1050494
+99,N/A,False,N/A,"Chinese, South Indian, Fast Food, Burgers, North Indian",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/yashogamya-foods-chowk-aishbagh-rest1074119
+100,N/A,True,4.3,"Burgers, Fast Food, Rolls & Wraps",30-35 MINS,N/A,6.4 km away,N/A,https://www.swiggy.com/city/lucknow/kfc-vardhan-khand-gomti-nagar-rest648199
+103,N/A,False,4.5,"American, Fast Food, Beverages",45-50 MINS,N/A,10.2 km away,N/A,https://www.swiggy.com/city/lucknow/mcdonalds-summit-building-vibhuti-khand-rest1000367
+104,N/A,True,4.3,"Pizzas, Pastas, Italian, Desserts, Beverages",40-45 MINS,N/A,8.3 km away,N/A,https://www.swiggy.com/city/lucknow/la-pinoz-pizza-gomti-nagar-rest76685
+105,N/A,False,4.3,Pizzas,55-65 MINS,N/A,12.2 km away,N/A,https://www.swiggy.com/city/lucknow/pizza-hut-aminabad-rest871340
+106,N/A,True,4.5,"Bakery, Italian, Pizzas, Snacks, Cakes & Pastries, Continental, Beverages, Desserts",45-50 MINS,N/A,13.4 km away,N/A,https://www.swiggy.com/city/lucknow/mr-brown-danbro-sector-15-indira-nagar-rest339112
+107,N/A,False,4.4,"Pizzas, Pastas, Italian, Fast Food, Snacks, Beverages, Desserts",35-45 MINS,N/A,9.8 km away,N/A,https://www.swiggy.com/city/lucknow/olio-the-wood-fired-pizzeria-gomti-nagar-rest850589
+108,N/A,True,4.6,"Pizzas, Pastas, Italian, Fast Food, Snacks, Beverages, Desserts",35-45 MINS,N/A,9.8 km away,N/A,https://www.swiggy.com/city/lucknow/99-slice-by-olio-pizza-gomti-nagar-rest1335682
+109,N/A,False,4.3,Cafe,55-65 MINS,N/A,12.1 km away,N/A,https://www.swiggy.com/city/lucknow/de-globe-cafe-hazratganj-rest1120569
+110,N/A,False,2.9,Pizzas,40-45 MINS,N/A,8.4 km away,N/A,https://www.swiggy.com/city/lucknow/pizza-pure-veg-24x7-virat-khand-1-gomti-nagar-rest885839
+112,N/A,False,N/A,Burgers,N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/veggiz-delight-mohanlalganj-rest1296427
+113,N/A,False,N/A,"Biryani, Mughlai, Indian, Burgers",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/brothers-non-veg-naval-kishore-rd-hazratganj-rest884053
+114,N/A,False,N/A,"Biryani, Lucknowi, Indian, Rolls & Wraps, North Indian",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/lucknowi-non-veg-indira-nagar-rest1302665
+115,N/A,False,N/A,"Chinese, Snacks, Indian, Fast Food, Continental, Lucknowi, South Indian, Biryani, Kebabs",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/ciwaz-veg-and-non-veg-gomti-nagar-vrindavan-rest345603
+116,N/A,False,N/A,"Indian, Biryani, Kebabs, North Indian",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/dimsim-non-veg-point-gomti-nagar-rest1315185
+118,N/A,False,N/A,"North Indian, Snacks, Biryani",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/anamika-veg-non-veg-point-d-block-indira-nagar-rest506729
+119,N/A,False,N/A,"Indian, Biryani",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/badnaam-non-veg-point-ghuswal-kalan-mohanlalganj-rest830061
+120,N/A,False,N/A,"Mughlai, Biryani",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/champaran-non-veg-point-viram-khand-1-gomti-nagar-rest381828
+121,N/A,False,N/A,"Biryani, Lucknowi, Indian, Awadhi, North Indian, Chinese, Asian",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/gupta-non-veg-point-gomti-nagar-rest1325275
+122,N/A,False,N/A,Ice Cream Cakes,N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/bihari-non-veg-point-gomti-nagar-rest992166
+123,N/A,False,N/A,"Mughlai, North Indian, Kebabs",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/anamika-non-veg-point-faizabad-road-indira-nagar-rest505908
+124,N/A,False,N/A,North Indian,N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/rajdhani-non-veg-center-mohanlalganj-vrindavan-yojna-rest1249159
+125,N/A,False,N/A,"Biryani, Lucknowi, Mughlai, Indian",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/suhail-non-veg-corner-hazratganj-rest1013646
+126,N/A,False,N/A,"Biryani, Snacks, Beverages",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/malik-non-veg-point-harihar-nagar-indira-nagar-rest692038
+127,N/A,False,N/A,"Mughlai, Chinese, Indian, Snacks, Fast Food",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/pankaj-non-veg-point-hazratganj-rest59523
+128,N/A,False,N/A,"Lucknowi, Mughlai, Indian, Grill, North Indian",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/rahul-non-veg-point-bbd-rest1181185
+129,N/A,False,N/A,"Mughlai, Biryani, Tandoor, Street Food, Kebabs, Lucknowi",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/shahi-non-veg-point-indira-nagar-rest67935
+130,N/A,False,N/A,"Mughlai, Indian, Chinese, Snacks, Fast Food, Lucknowi",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/prem-non-veg-point-lalbagh-rest58839
+131,N/A,False,N/A,"Biryani, Lucknowi, Mughlai",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/lazzat-non-veg-corner-indira-nagar-rest1183955
+132,N/A,False,N/A,"Mughlai, Snacks",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/deepanshu-non-veg-corner-arvindo-park-road-indira-nagar-rest101030
+133,N/A,False,N/A,"Biryani, Mughlai, Snacks, Burgers, North Indian, Chinese, Asian, Indian",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/rajwada-non-veg-point-indira-nagar-rest1328624
+135,N/A,False,N/A,"Mughlai, Chinese, Biryani",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/ajay-non-veg-point-hazratganj-rest60121
+136,N/A,False,N/A,Awadhi,N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/azamgarh-non-veg-point-mohanlalganj-rest1308973
+137,N/A,False,N/A,"Indian, Street Food, Fast Food, Burgers, Cafe",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/aman-non-veg-point-indira-nagar-rest1263519
+138,N/A,False,N/A,"Mughlai, Biryani, Kebabs",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/delhi-non-veg-and-veg-corner-gomti-nagar-rest329800
+139,N/A,False,N/A,"Thalis, Tandoor, Biryani, Fast Food",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/wazwan-veg-and-non-veg-point-gomti-nagar-rest610309
+140,N/A,False,N/A,"Snacks, Thalis",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/mr-veg-and-mrs-non-veg-nehru-enclave-gomti-nagar-rest973512
+141,N/A,False,N/A,"North Indian, Indian",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/up-32-non-veg-point-faizabad-road-indira-nagar-rest117528
+142,N/A,False,N/A,Fast Food,N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/fauji-ghar-ka-swad-the-non-veg-point-mohanlalganj-rest1299552
+145,N/A,False,N/A,"Thalis, Indian, North Indian, Chinese, Fast Food,  South Indian, Tandoor, Kebabs, Pizzas, Burgers",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/narayan-veg-gomtinagar-gomti-nagar-rest803263
+146,N/A,False,N/A,"Chinese, Biryani, Street Food, Fast Food, Rolls & Wraps",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/aditya-veg-mohanlalganj-sharda-nagar-rest1169277
+147,N/A,False,N/A,"North Indian, Chinese, Biryani",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/veg-adda-khun-khun-ji-road-chowk-rest750899
+148,N/A,False,N/A,Snacks,N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/veg-com-nagar-nigam-hazratganj-rest775130
+149,N/A,False,N/A,"North Indian, Chinese, Pizzas, Beverages",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/veg-kitchen-viram-khand-2-gomti-nagar-rest105900
+150,N/A,False,N/A,"Chinese, Indian, Street Food, Fast Food, Burgers",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/bajrang-veg-mohanlalganj-ext-rest1265662
+151,N/A,False,N/A,"Chinese, Indian",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/ghanshyam-veg-vibhuti-khand-gomti-nagar-rest287728
+153,N/A,False,N/A,"Chinese, Desserts, Thalis, North Indian",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/desi-veg-rasoi-gomti-nagar-vrindavan-rest1098559
+154,N/A,False,N/A,Home Food,N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/the-veg-point-sultanpur-road-vrindavan-rest829364
+155,N/A,False,N/A,Fast Food,N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/swadisht-pure-veg-mohanlalganj-rest1300842
+156,N/A,False,N/A,Street Food,N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/mama-veg-corner-hazratganj-rest1283373
+157,N/A,False,N/A,"Chinese, Biryani, Chaat, Indian, Street Food, Snacks, Healthy Food, Fast Food",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/sai-veg-corner-pickup-bldg-rd-gomti-nagar-rest1028467
+158,N/A,False,N/A,"Indian, Indonesian, Street Food, Fast Food",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/tanushka-veg-roll-sector-4-gomti-nagar-rest878715
+159,N/A,False,N/A,"Biryani, Indian, Street Food, Fast Food",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/veg-kebabi-king-indira-nagar-rest1139759
+160,N/A,False,N/A,Indian,N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/dabbu-veg-kitchen-sector-4-gomti-nagar-rest881777
+161,N/A,False,N/A,Fast Food,N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/min-veg-hub-gomti-nagar-rest1274467
+162,N/A,False,N/A,"Biryani, Indian",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/veg-biryani-shop-indira-nagar-rest1028093
+163,N/A,False,N/A,"Snacks, Cafe, Rolls & Wraps",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/veg-kabab-point-indira-nagar-rest1309941
+164,N/A,False,N/A,"Street Food, Fast Food",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/tanuska-veg-point-viram-khand-gomti-nagar-rest1041793
+165,N/A,False,N/A,"Fast Food, Burgers, Cafe",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/gupta-veg-point-indira-nagar-rest1292653
+166,N/A,False,N/A,"Thalis, Indian, Healthy Food",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/shri-gopal-veg-mohanlalganj-rest1243857
+167,N/A,False,N/A,"Chaat, Thalis, Indian",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/gangotri-pure-veg-hazratganj-rest1101123
+168,N/A,False,N/A,"Chaat, Thalis, Indian, Tandoor, Snacks, Pizzas, Pastas, Navratri Special, Fast Food, Burgers",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/riddhi-veg-restaurant-kamta-police-chauki-gomti-nagar-rest858163
+169,N/A,False,N/A,"North Indian, Biryani, Desserts",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/punjabi-veg-kitchen-sector-4-gomti-nagar-rest591748
+170,N/A,False,N/A,"Indian, Snacks, Healthy Food, Fast Food, North Indian",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/the-veg-culture-mahanagar-rest1087535
+171,N/A,False,N/A,"Chinese, Thalis, Indian, Snacks, North Indian, Punjabi",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/shiv-shakti-veg-gomti-nagar-rest1331639
+172,N/A,False,N/A,"Biryani, Indian, Home Food",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/home-veg-kitchen-baldev-vihar-mohanlalganj-rest989479
+173,N/A,False,N/A,North Indian,N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/house-of-veg-tahsil-gomti-nagar-rest916811
+174,N/A,False,N/A,"Indian, Street Food, Fast Food",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/veg-roll-wale-sector-4-gomti-nagar-rest876789
+176,N/A,False,N/A,"Indian, Biryani, Lucknowi, Mughlai",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/lucknowi-veg-kabab-paratha-sahara-plaza-gomti-nagar-rest677024
+177,N/A,False,N/A,"Pizzas, Italian, Desserts, Beverages",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/veg-meals-by-lunchbox-near-police-headquarters-gomti-nagar-extension-rest1226074
+178,N/A,False,N/A,Fast Food,N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/mishri-malai-veg-restaurant-mohanlalganj-rest1296450
+179,N/A,False,N/A,South Indian,N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/yummy-bakery-pure-veg-gomti-nagar-rest1060588
+180,N/A,False,N/A,"Chinese, Thalis, Street Food, Fast Food, Burgers, Cafe",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/sita-ram-veg-point-hazratganj-charbagh-rest1216392
+181,N/A,False,N/A,Rolls & Wraps,N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/a2z-veg-kabab-paratha-gomti-nagar-rest1273436
+182,N/A,False,N/A,Indian,N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/the-pure-veg-point-gomti-nagar-rest933457
+183,N/A,False,N/A,"Chinese, Indian, Fast Food, Burgers, Cafe, North Indian",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/rishta-restaurant-pure-veg-indira-nagar-rest1186231
+184,N/A,False,N/A,Indian,N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/mummy-papa-veg-corner-ahmamau-gomti-nagar-rest906756
+185,N/A,False,N/A,"Indian, North Indian",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/the-kitchen-veg-only-indira-nagar-rest1071902
+186,N/A,False,N/A,"Indian, Biryani, Chinese",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/royal-king-veg-restaurant-indira-nagar-rest818368
+187,N/A,False,N/A,"Biryani, Mughlai",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/krishna-veg-kabab-paratha-gomti-nagar-rest980584
+188,N/A,False,N/A,"Biryani, Indian",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/guru-kashyap-veg-biryani-indira-nagar-rest1027229
+189,N/A,False,N/A,"Biryani, Indian, Street Food, Fast Food",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/sushil-veg-kabab-paratha-indira-nagar-rest975063
+190,N/A,False,N/A,Fast Food,N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/dixit-veg-and-fast-sector-4-vrindavan-colony-rest661406
+191,N/A,False,N/A,"North Indian, Snacks, Chinese",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/ananya-pure-veg-point-sector-4-gomti-nagar-rest500548
+192,N/A,False,N/A,Indian,N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/maa-annapurna-pure-veg-vibhav-khand-gomti-nagar-rest1009003
+193,N/A,False,N/A,"Chinese, Fast Food",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/aditya-veg-chinese-corner-sector-1-mohanlalganj-rest838573
+194,N/A,False,N/A,"Indian, Ice Cream Cakes",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/shri-gajanan-veg-corner-sector-4-gomti-nagar-rest882740
+195,N/A,False,N/A,"Chinese, South Indian, Indian, Snacks, North Indian",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/masala-darbar-pure-veg-gomti-nagar-rest1272301
+196,N/A,False,N/A,"South Indian, Indian, North Indian",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/kallu-star-veg-corner-gomti-nagar-rest1250633
+198,N/A,False,N/A,"Biryani, North Indian, Kebabs, Mughlai, Beverages, Desserts",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/veg-darbar-by-behrouz-biryani-gomti-nagar-kamta-rest575184
+199,N/A,False,N/A,"Chinese, Thalis, Indian, Cafe, North Indian",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/green-bites-pure-veg-hub-mohanlalganj-sushant-golf-city-ansal-rest1280491
+202,N/A,True,3.4,"Beverages, Ice Cream, Fast Food, Burgers, Pizzas, Snacks, Rolls & Wraps, Momos, Desserts",40-45 MINS,N/A,13.2 km away,N/A,https://www.swiggy.com/city/lucknow/milkshake-bar-and-cafe-sector-16-indira-nagar-rest839985
+204,N/A,True,4,"Indian, North Indian",40-45 MINS,N/A,8.8 km away,N/A,https://www.swiggy.com/city/lucknow/royal-cuisine-cafe-gomti-nagar-rest1077772
+205,N/A,False,4.3,"Beverages, Ice Cream, Desserts, Healthy Food",55-65 MINS,N/A,12.5 km away,N/A,https://www.swiggy.com/city/lucknow/keventers-milkshakes-and-desserts-sapru-marg-hazratganj-rest63376
+206,N/A,True,3.6,"Cafe, Fast Food, Italian",45-50 MINS,N/A,13.2 km away,N/A,https://www.swiggy.com/city/lucknow/coffee-junction-cafe-sector-16-indira-nagar-rest840944
+207,N/A,False,4.6,"Bakery, Pastas, Pizzas, Continental, Snacks",55-65 MINS,N/A,12.5 km away,N/A,https://www.swiggy.com/city/lucknow/the-cherry-tree-bakery-and-cafe-hazratganj-rest59530
+208,N/A,False,3.7,"Pizzas, Italian, Burger",40-45 MINS,N/A,13.2 km away,N/A,https://www.swiggy.com/city/lucknow/italian-pizza-bar-and-cafe-sector-16-indira-nagar-rest841058
+209,N/A,False,3.3,"Chinese, Continental, Indian, Italian, Mediterranean",35-45 MINS,N/A,6.3 km away,N/A,https://www.swiggy.com/city/lucknow/boston-housee-cafe-gomti-nagar-rest787515
+210,N/A,False,4.3,"Burgers, Fast Food, Continental, American, Beverages, Desserts",55-65 MINS,N/A,13.5 km away,N/A,https://www.swiggy.com/city/lucknow/wab-cafe-by-wat-a-burger-indira-nagar-rest470397
+212,N/A,False,N/A,"Lucknowi, Street Food, Pizzas, Italian-American, Pastas, Fast Food, Burgers",45-50 MINS,N/A,8.6 km away,N/A,https://www.swiggy.com/city/lucknow/albatross-cafe-ashirwad-bhavan-gomti-nagar-rest980204
+213,N/A,False,N/A,Pizzas,N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/hoody-foody-cafe-jagat-khera-panchayat-bhawan-mohanlalganj-rest802635
+214,N/A,False,N/A,"Mughlai, Beverages, Fast Food",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/royal-cafe-gomti-nagar-vrindavan-rest1026482
+215,N/A,False,N/A,"Beverages, Cafe, Snacks, Desserts, Burgers, Ice Cream, Bakery, Fast Food",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/cafe-coffee-day-mg-marg-hazratganj-rest133782
+216,N/A,False,N/A,"Beverages, Continental, Burger, Healthy Food, sandwich, Snacks, Desserts, Cafe, Gourmet",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/sidewalk-bakehouse-and-cafe-vivek-khand-gomti-nagar-rest925547
+217,N/A,False,N/A,"Italian, Mexican, Continental, Salads",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/cafe-hons-house-of-no-sugar-vibhuti-khand-rest560182
+218,N/A,False,N/A,"Chinese, Biryani, South Indian, Indian, Italian, Punjabi, Desserts",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/giriraj-cafe-and-restaurant-sector-2-vrindavan-colony-rest294257
+219,N/A,False,N/A,"Beverages, Bakery, Pizzas, Snacks, Fast Food",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/ballotino-cafe-vibhuti-khand-gomti-nagar-rest795542
+220,N/A,False,N/A,"Beverages, Snacks, Pizzas, Cafe",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/side-walk-bakehouse-and-cafe-hazratganj-rest1170822
+221,N/A,False,N/A,"Chinese, Continental, Indian, Tandoor, Salads, Fast Food, Burgers, Cafe",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/the-sundaram-cafe-guru-govind-singh-vrindavan-yojna-rest869031
+222,N/A,False,N/A,"Italian, Indian, North Indian, Chinese",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/brewlyn-cafe-gomti-nagar-rest1346099
+223,N/A,False,N/A,"Indian, Chinese, Italian",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/cafe-delhi-heights-shaheed-path-mohanlalganj-rest839876
+224,N/A,False,N/A,"Indian, Chinese",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/cafe-sure-by-best-western-gomti-nagar-rest817912
+225,N/A,False,N/A,"Chinese, Street Food, Snacks, Fast Food, Cafe",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/coffee-mitra-cafe-indira-nagar-rest1198376
+226,N/A,False,N/A,"Street Food, Desserts, Beverages, Chaat",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/royal-hut-by-royal-cafe-shahnajaf-road-rest83200
+227,N/A,False,N/A,"Chinese, Fast Food, Pizzas, Burgers, Snacks, Desserts, Beverages",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/the-behtareen-cafe-patrakar-puram-gomti-nagar-rest884492
+229,N/A,False,N/A,"Indian, North Indian",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/royalisto-sweets-bakery-and-cafe-gomti-nagar-rest1068163
+230,N/A,False,N/A,"Indian, Chinese, Fast Food",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/cafe-de-leila-gomti-nagar-rest616957
+231,N/A,False,N/A,"Chinese, Momos, Desserts, Cakes, Beverages, Fast Food",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/cranberry-cafe-and-bake-house-gomti-nagar-rest1187387
+232,N/A,False,N/A,"Beverages, Snacks, Pizzas, Bakery, Cafe",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/globe-cafe-kaiserbagh-jagat-narain-road-hazratganj-rest294188
+233,N/A,False,N/A,Indian,N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/mocha-cafe-and-bar-gomti-nagar-rest304232
+234,N/A,False,N/A,"Paan, Beverages",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/tambulam-paan-cafe-vivek-khand-3-gomti-nagar-rest166823
+235,N/A,False,N/A,"Snacks, Chinese, American",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/cafe-1991-gomti-nagar-rest585663
+236,N/A,False,N/A,"Chinese, Chaat, Pizzas",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/royal-inn-by-royal-cafe-hazratganj-shahnajaf-road-rest59667
+237,N/A,False,N/A,"Chinese, Indian, Beverages, Street Food, Snacks, Fast Food, Burgers, Cafe",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/seven-eleven-cafe-gomti-nagar-rest1006895
+238,N/A,False,N/A,"Indian, Chinese, Continental, Pizzas, Pastas, Desserts, Beverages",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/colours-royal-cafe-hazratganj-shahnajaf-road-rest59661
+239,N/A,False,N/A,"Chinese, Chaat, Indian, Fast Food, North Indian",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/amrit-restaurant-and-cafe-pure-veg-indira-nagar-rest1257160
+240,N/A,False,N/A,"Fast Food, Burgers, Snacks, Pastas",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/midtimes-cafe-by-eat-n-drive-nagar-nigam-indira-nagar-rest767926
+241,N/A,False,N/A,Chinese,N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/rvv-cafe-vidya-nagar-vrindavan-rest555231
+242,N/A,False,N/A,South Indian,N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/madhavam-andhra-cafe-naval-kishore-rd-hazratganj-rest851938
+243,N/A,False,N/A,"Thalis, Indian",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/moms-kitchen-cafe-near-munshi-puliya-indira-nagar-rest804934
+244,N/A,False,N/A,"Fast Food, Burger, Pizzas, sandwich, Momos, Beverages",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/v-cafe-meals-by-pvr-3rd-floor-lucknow-phoenix-market-city-rest1038942
+245,N/A,False,N/A,"Bakery, Chinese, Snacks",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/bec-bakers-excellence-and-cafe-raiberli-road-mohanlalganj-rest733100
+246,N/A,False,N/A,"Beverages, Snacks, Biryani",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/dinin-delight-restaurant-and-cafe-road-aishbagh-rest634523
+247,N/A,False,N/A,"Chinese, Beverages, Street Food, Snacks, Italian-American, Pastas, Fast Food, Burgers, Cafe",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/the-ancestry-a-cafe-and-eatery-chowk-rest992379
+248,N/A,False,N/A,"Burgers, Italian",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/burger-lane-cafe-hazratganj-rest749147
+249,N/A,False,N/A,"Pizzas, Beverages",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/cafe-wale-bhaiya-harihar-nagar-indira-nagar-rest621342
+250,N/A,False,N/A,"Chinese, Thalis, Indian, Cafe, North Indian, Biryani, Tibetan, Rolls & Wraps",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/cafe-45-and-restro-vrindavan-rest1316291
+251,N/A,False,N/A,"Snacks, Fast Food, Beverages",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/pvr-cafe-lucknow-phoenix-market-city-rest1070305
+252,N/A,False,N/A,"Beverages, Healthy Food, Chinese",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/gumtea-cafe-sector-3-aashiana-rest195614
+253,N/A,False,N/A,"Coffee, Fast Food, Cafe",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/nbc-nothing-before-coffee-experion-mall-gomti-nagar-rest967452
+254,N/A,False,N/A,"Chinese, North Indian, Beverages, Indian, Desserts",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/urban-smoky-cafe-mg-marg-geeta-bhawan-hazratganj-rest757801
+255,N/A,False,N/A,"Desserts, American, Continental, Pizzas, Italian, Beverages",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/roastery-coffee-house-gomti-nagar-rest577756
+256,N/A,False,N/A,"Bakery, Pizzas, Burgers, Beverages, Desserts",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/m-and-h-bakery-by-madhurima-vinay-khand-patrakarpuram-rest304774
+257,N/A,False,N/A,"Indian, South Indian, Chinese, Italian",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/silver-spoon-bakers-and-cafe-aishbagh-rest129384
+258,N/A,False,N/A,"Snacks, Pizzas, Pastas, Oriental, Fast Food, Burgers, Cafe",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/abongzaa-multi-cuisine-cafe-gomti-nagar-rest1022000
+259,N/A,False,N/A,Snacks,N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/piccolo-italian-cafe-hazratganj-rest1066125
+260,N/A,False,N/A,"Bengali, Hyderabadi, Indian, Grill, Tandoor, Salads, Snacks, Home Food, Healthy Food, Fast Food",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/masalo-ka-magic-laxmi-market-gomti-nagar-rest1275299
+261,N/A,False,N/A,"North Indian, paratha, South Indian, Biryani, Chinese, Tandoor, indian snacks, Thalis",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/love-cafe-and-restaurant-hazratganj-rest996618
+262,N/A,False,N/A,"Cafe, Snacks, Fast Food",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/tea-time-cafe-vishesh-khand-gomti-nagar-rest577041
+263,N/A,False,N/A,Chinese,N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/wamesh-cafe-aliganj-rest110424
+264,N/A,False,N/A,"Bakery, Pastas",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/rishi-bakers-and-cafe-gomti-nagar-rest1074716
+265,N/A,False,N/A,"Beverages, Cafe, Bakery, Desserts, Snacks",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/costa-coffee-lulu-mall-sushant-golf-city-rest493175
+266,N/A,False,N/A,"Desserts, Bakery, Snacks, Pizzas, Fast Food, Indian, Italian, Chinese, Cafe, Beverages",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/cake-n-cafe-gomti-nagar-rest1342270
+267,N/A,False,N/A,"Chinese, Beverages, Pizzas, Pastas, Burgers, Cafe",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/cafe-leaf-and-latte-gomti-nagar-rest1223372
+268,N/A,False,N/A,"Beverages, Snacks",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/barista-coffee-amar-shaheed-path-phoenix-plassio-rest514564
+269,N/A,False,N/A,"Desserts, Cafe, Bakery, Beverages, Fast Food",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/dunkin-donuts-and-coffee-sushant-golf-city-lulu-mall-rest806919
+270,N/A,False,N/A,"Coffee, Beverages, Desserts, Snacks",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/one-zero-coffee-kisan-bazar-gomti-nagar-rest723165
+271,N/A,False,N/A,"Chaat, Street Food, Indian",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/shree-hari-cafe-vrindavan-rest1329401
+272,N/A,False,N/A,"Chinese, Snacks, Pizzas, Pastas, Fast Food, Burgers, Cafe, Indian",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/hridaya-cafe-gomti-nagar-rest1340869
+273,N/A,False,N/A,"Snacks, Sweets, Desserts",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/7th-heaven-vastu-khand-gomti-nagar-rest437983
+274,N/A,False,N/A,"Indian, South Indian, Chinese, Snacks, Thalis, Continental",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/madhurima-veg-gomti-nagar-rest59255
+275,N/A,False,N/A,"Chinese, North Indian, Beverages",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/sicily-cafe-and-dine-in-hazratganj-rest1160527
+276,N/A,False,N/A,"Bakery, Cafe, Desserts, Indian",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/the-heaven-cakes-and-cafe-indira-nagar-rest1344521
+277,N/A,False,N/A,"Cakes & Pastries, Bakery, dessert, Cafe, Italian-American",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/jj-bakers-hazratganj-rest60053
+278,N/A,False,N/A,"Bakery, Beverages, Desserts",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/inx-bakery-and-cafe-gomti-nagar-rest923156
+279,N/A,False,N/A,"Chinese, Beverages, Snacks, Fast Food, Burgers, Cafe, North Indian",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/brajdham-cafe-vrindavan-rest1339916
+280,N/A,False,N/A,South Indian,N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/sai-south-indian-dosa-cafe-vikas-khand-1-gomti-nagar-rest491900
+281,N/A,False,N/A,"Snacks, Beverages, Pastas, Pizzas",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/cafe-wtf-indira-nagar-rest58465
+282,N/A,False,N/A,Cafe,N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/divyann-cafe-mohanlalganj-rest1265063
+283,N/A,False,N/A,"Chinese, Lucknowi, Italian, Indian",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/cafe-crown-gomti-nagar-rest1164201
+284,N/A,False,N/A,"Sweets, Desserts, Indian, Snacks",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/madhurima-sweets-gomti-nagar-rest59256
+285,N/A,False,N/A,"Bakery, Ice Cream, Cafe",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/sprinkle-sundaes-gomti-nagar-rest1255303
+286,N/A,False,N/A,"Desserts, Beverages, Cafe",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/coffee-amore-gomti-nagar-rest1303514
+287,N/A,False,N/A,"Sweets, Cafe, Chinese, Pizzas, sandwich, Italian, Beverages",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/butter-story-aliganj-indira-nagar-rest632790
+288,N/A,False,N/A,"Chinese, Biryani, Fast Food, Cafe, North Indian",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/green-goddess-cafe-indira-nagar-rest1086906
+289,N/A,False,N/A,"Cafe, Italian, Fast Food, Juices",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/ftv-cafe-hazratganj-rest675621
+290,N/A,False,N/A,"Chinese, Desserts, Beverages, Snacks, Pizzas, Pastas, Fast Food, Burgers, Cafe, North Indian",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/cecilias-cafe-indira-nagar-rest1143299
+291,N/A,False,N/A,Chinese,N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/hangout-cafe-gomti-nagar-rest1303725
+292,N/A,False,N/A,"Chinese, Burgers, Italian, Snacks, Fast Food",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/der-mond-cafe-prabha-complex-mohanlalganj-rest710047
+293,N/A,False,N/A,"Chinese, South Indian, Bakery, Street Food",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/samuh-cafe-sai-data-marg-vrindavan-rest1171665
+294,N/A,False,N/A,"Chinese, Beverages, Street Food, Fast Food, Cafe",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/rc-cafe-hazratganj-rest1204551
+295,N/A,False,N/A,Burgers,N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/the-chammach-cafe-and-restaurant-gomti-nagar-rest1250328
+296,N/A,False,N/A,South Indian,N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/pinak-south-indian-cafe-indira-nagar-rest1093526
+297,N/A,False,N/A,"Beverages, Snacks, Pastas, Waffle, Burgers",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/the-hamlet-cafe-gomti-nagar-rest1122881
+298,N/A,False,N/A,"Chinese, Snacks, Fast Food, Burgers, Cafe",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/pp-cafe-gomti-nagar-rest1240888
+299,N/A,False,N/A,"Chinese, Street Food, Snacks, Fast Food, Burgers, Cafe",N/A,N/A,N/A,N/A,https://www.swiggy.com/city/lucknow/the-millionaire-cafe-gomti-nagar-rest1203471
