@@ -49,7 +49,9 @@ llm = ChatGroq(model=MODEL, temperature=0)
 llm_with_tools = llm.bind_tools(tools)
 
 def generate_query_or_respond(state: MessagesState):
-    """Call the model to generate a response based on the current state. Given
+    """
+    IMPORTANT: IF QUESTION NOT RELATED TO TITAN SECURE'S POLICY, DO NOT RETRIEVE
+    Call the model to generate a response based on the current state. Given
     the question, it will decide to retrieve using the retriever tool, or simply respond to the user.
     """
     response = (
@@ -109,6 +111,7 @@ def rewrite_question(state: MessagesState):
     return {"messages": [HumanMessage(content=response.content)]}
 
 GENERATE_PROMPT = (
+    "IMPORTANT: IF QUESTION NOT RELATED TO TITAN SECURE'S POLICY, DO NOT RETRIEVE"
     "You are a RAG model that simplifies complex 'Terms & Conditions' or Policy documents."
     "You must use a comprehensive document (Titan Secure Health Insurance Policy) to answer specific, high-stakes user queries with 100% accuracy."
     "You must cite the section and clause number for every answer you write related to the Titan Secure Health Insurance Policy."
@@ -118,9 +121,12 @@ GENERATE_PROMPT = (
 )
 
 class FinalAnswer(BaseModel):
-    """The final answer and policy citation."""
+    """
+    "IMPORTANT: IF QUESTION NOT RELATED TO TITAN SECURE'S POLICY, OUTPUT CITATION NOT REQUIRED."
+    The final answer and policy citation.
+    """
     answer: str = Field(description="The simple, easy to understand answer to the user's question. Explain it to them like they are five.")
-    citation: str = Field(description="The specific section and clause number cited from the policy. If not found in context, output 'Not specified in retrieved context.'")
+    citation: str = Field(description="The specific section and clause number cited from the policy. If not found in context, output 'CITATION NOT REQUIRED'")
 
 def generate_answer(state: MessagesState):
     """Generate an answer"""
