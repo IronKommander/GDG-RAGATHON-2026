@@ -16,7 +16,6 @@ SIZE=768 #for BAAI/bge-base-en-v1.5
 df = pd.read_csv(file_path)
 df.drop(columns=['Id'], inplace=True)
 df["restaurantName"] = df["restaurantUrl"].str.split('/').str[-1]
-df["distance"] = df["distance"].fillna("50")
 df["distance"] = df["distance"].str.extract(r'(\d+\.\d+|\d+)').astype(float)
 df.sort_values(by='distance')
 
@@ -33,7 +32,7 @@ docs = []
 for _, r in df.iterrows():
     rating = r['rating'] if not pd.isna(r['rating']) else "unrated"
     price = r['price'] if not pd.isna(r['price']) else "unknown price"
-    distance = r['distance'] if not pd.isna(r['distance']) else 50.0
+    distance = r['distance'] if not pd.isna(r['distance']) else "not known"
     
     text_chunk = (
         f"{r['restaurantName']} is a restaurant located {distance}km away. "
@@ -44,7 +43,7 @@ for _, r in df.iterrows():
     metadata = {
         "restaurant_name": r['restaurantName'],
         "rating": float(r['rating']) if not pd.isna(r['rating']) else 0.0,
-        "distance_km": float(r['distance']) if not pd.isna(r['distance']) else 999.9,
+        "distance_km": float(r['distance']) if not pd.isna(r['distance']) else "not known",
         "cuisines": [c.strip() for c in str(r['cuisines']).split(',')] if not pd.isna(r['cuisines']) else []
     }
     docs.append(
