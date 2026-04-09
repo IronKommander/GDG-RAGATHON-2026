@@ -1,4 +1,4 @@
-,restaurantName,isAdvertisement,rating,cuisines,deliveryTime,price,distance,offer,restaurantUrl
+Id,restaurantName,isAdvertisement,rating,cuisines,deliveryTime,price,distance,offer,restaurantUrl
 0,N/A,False,4.3,"American, Beverages, Desserts, Snacks, Indian",30-35 MINS,N/A,8.3 km away,N/A,https://www.swiggy.com/city/lucknow/burger-singh-big-punjabi-burgers-gomti-nagar-rest367778
 1,N/A,False,4.5,"Bakery, Italian, Snacks, Cakes & Pastries, Pizzas, Beverages",35-40 MINS,N/A,9.9 km away,N/A,https://www.swiggy.com/city/lucknow/mr-brown-danbro-gomti-nagar-rest504871
 2,N/A,False,4.4,"Burgers, American",40-50 MINS,N/A,8.6 km away,N/A,https://www.swiggy.com/city/lucknow/burger-king-city-mall-gomti-nagar-rest226044
